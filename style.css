@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    background-color: #111;
+    height: 100%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 50;
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.green {
+    color: lime;
+    font-weight: 800;
+}
+
+.container {
+    max-width: 1240px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+} 
+
+.todoList_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoList_input {
+    padding-top: 8px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    height: 50px;
+    width: 450px;
+    border: none;
+    background-color: #fff;
+    font-size: 18.4px;
+    margin: 4px;
+    border-radius: 25px;
+}
+
+.todoList_add {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: lime;
+    margin: 4px;
+    color: #fff;
+    cursor: pointer;
+} 
+
+.todoList_add:hover{
+    opacity: 0.7;
+}
+
+.todoList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.todoList_item {
+    font-size: 22.4px;
+    padding: 8px;
+    list-style: none;
+    margin-bottom: 24px;
+    border-bottom: 4px solid #fff;
+    color: #fff;
+}
+
+.malumotlar {
+    display: inline-block;
+    margin-right: 200px;
+}
+
+.delete-btn {
+    font-size: 22.4px;
+    margin: 0 8px;
+    background: none;
+    border: none;
+    color: lime;
+}
+
+.finished-btn {
+    font-size: 22.4px;
+    margin: 0 8px;
+    background: none;
+    border: none;
+    color: red;
+}
+
+.bajarilgan {
+    opacity: 0.5;
+}
